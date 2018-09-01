@@ -13,6 +13,8 @@
 		9F0E77A72136D7020006EC2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F0E77A62136D7020006EC2C /* Assets.xcassets */; };
 		9F0E77AA2136D7020006EC2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0E77A82136D7020006EC2C /* LaunchScreen.storyboard */; };
 		9F0E77B52136D7020006EC2C /* book_designPattern_todoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E77B42136D7020006EC2C /* book_designPattern_todoTests.swift */; };
+		9F0E77C22136D9430006EC2C /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E77C12136D9430006EC2C /* Task.swift */; };
+		9F0E77C42136DB790006EC2C /* TaskDataSource .swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E77C32136DB790006EC2C /* TaskDataSource .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		9F0E77B02136D7020006EC2C /* book_designPattern_todoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = book_designPattern_todoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F0E77B42136D7020006EC2C /* book_designPattern_todoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = book_designPattern_todoTests.swift; sourceTree = "<group>"; };
 		9F0E77B62136D7020006EC2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F0E77C12136D9430006EC2C /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		9F0E77C32136DB790006EC2C /* TaskDataSource .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TaskDataSource .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				9F0E77A62136D7020006EC2C /* Assets.xcassets */,
 				9F0E77A82136D7020006EC2C /* LaunchScreen.storyboard */,
 				9F0E77AB2136D7020006EC2C /* Info.plist */,
+				9F0E77C12136D9430006EC2C /* Task.swift */,
+				9F0E77C32136DB790006EC2C /* TaskDataSource .swift */,
 			);
 			path = book_designPattern_todo;
 			sourceTree = "<group>";
@@ -198,6 +204,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F0E77A22136D6FF0006EC2C /* ViewController.swift in Sources */,
+				9F0E77C22136D9430006EC2C /* Task.swift in Sources */,
+				9F0E77C42136DB790006EC2C /* TaskDataSource .swift in Sources */,
 				9F0E77A02136D6FF0006EC2C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
